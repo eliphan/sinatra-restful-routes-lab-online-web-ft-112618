@@ -28,4 +28,5 @@ class ApplicationController < Sinatra::Base
     recipe = @recipes.find_by(params[:id])
     erb :show
   end
+  
 end
