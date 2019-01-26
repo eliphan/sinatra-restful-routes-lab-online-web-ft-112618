@@ -25,7 +25,7 @@ class ApplicationController < Sinatra::Base
   end
   
   get 'recipe/:id'
-  
+    recipe = @recipes.find_by
     erb :show
   end
 end
