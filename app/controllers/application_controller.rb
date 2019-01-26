@@ -34,5 +34,6 @@ class ApplicationController < Sinatra::Base
   end
   
   post '/recipe/delete'
+  end
   
 end
