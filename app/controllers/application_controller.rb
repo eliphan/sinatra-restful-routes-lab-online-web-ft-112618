@@ -11,6 +11,6 @@ class ApplicationController < Sinatra::Base
   end
   
   get '/new' do
-    
+    @recipe = Recipe.new(name: params[:name], ingredients: params[:ingredients], cook_time: params[:cook_time])
   end
 end
