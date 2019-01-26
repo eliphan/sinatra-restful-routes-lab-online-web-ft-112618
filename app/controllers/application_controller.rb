@@ -33,7 +33,7 @@ class ApplicationController < Sinatra::Base
     erb :edit
   end
   
-  post '/recipes/delete'
+  post '/recipes/delete' do
     erb :show
   end
   
